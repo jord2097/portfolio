@@ -1,0 +1,63 @@
+.col-md {
+    max-width: 600px;
+}
+
+header {
+    max-width: 1200px;    
+}
+
+.footer-text{
+    text-align: center;
+    
+}
+
+body {
+    background-color:white;
+    font-family: Kanit;
+}
+
+.text-black {
+    color: black;
+    font-weight:bold;
+}
+
+.text-grey {
+    color: rgb(101, 105, 112)
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: content-box;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#content {
+    display:flex;
+    min-height:100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* #row1 {
+    padding-bottom: 40px;
+} */
+
+.inline li {
+    display:inline;
+    font-size: 2rem;
+    
+}
